@@ -1,0 +1,53 @@
+@media only screen and (min-width: 64em) {
+    body h1,h2,h3,h4,h5,h6,ul,footer,p{margin:0; padding:0px;}
+    
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    body{
+        width:70%;
+        margin:0 15%;
+        background-color: aqua;
+    }
+    
+    main {
+        background-color: azure;
+    }
+    
+    header {
+        background-color: azure;
+    }
+    
+    
+    
+    nav button { display:none; }  /* hamburger button does not need to be shown */
+    nav {
+        background-color: azure;
+        margin:0;
+    }
+    nav ul {
+        display: flex; 
+        flex-direction: row;
+    }
+    nav ul li{list-style-type: none;
+    padding:16px;
+    background-color: antiquewhite;
+    }
+    
+    div#top-page {
+        display: flex;
+        flex-direction: column;
+    }
+    
+  article p.town-article img { width: 29.333%; margin 0px; }
+  
+}
+    footer {
+        background-color: azure; padding:24px 0;
+    }
+
+section.forecast {
+    display:block;
+}
+section.forecast table{
+    border-style: solid;
+    border: black thin;
+}
